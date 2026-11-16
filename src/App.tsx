@@ -7,6 +7,7 @@ import { NotFoundPage } from './pages/NotFoundPage'
 import { ProjectsPage } from './pages/ProjectsPage'
 import './App.css'
 import './Architecture.css'
+import './GitHub.css'
 
 function App() {
   return <BrowserRouter><Layout><Routes><Route path="/" element={<HomePage/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/projects" element={<ProjectsPage/>}/><Route path="/contact" element={<ContactPage/>}/><Route path="*" element={<NotFoundPage/>}/></Routes></Layout></BrowserRouter>

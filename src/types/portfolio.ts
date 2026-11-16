@@ -12,6 +12,7 @@ export type PortfolioProject = {
   challenge: string
   outcome: string
   tags: string[]
+  githubUrl: string
   accent: ProjectAccent
   icon: ComponentType<LucideProps>
 }

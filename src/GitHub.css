@@ -1,0 +1,8 @@
+.button-outline{border-color:var(--line);background:transparent;color:var(--ink)}
+.project-card-footer{position:absolute;right:1.4rem;bottom:1.4rem;left:1.4rem;z-index:2;display:flex;align-items:flex-end;gap:.7rem}
+.project-card-footer .tag-list{position:static;right:auto;bottom:auto;left:auto;flex:1;min-width:0}
+.project-github{display:inline-flex;flex:none;align-items:center;gap:.35rem;padding:.45rem .65rem;border:1px solid #526079;border-radius:99px;color:#f7f7f1;font-size:.68rem;font-weight:700;text-decoration:none;transition:background .2s ease,border-color .2s ease}
+.project-github:hover{border-color:#c9ff4a;background:#202b40}
+.detailed-projects .project-card-footer{grid-column:2/-1}
+.detailed-projects .project-card-footer .tag-list{grid-column:auto}
+@media(max-width:720px){.hero-actions .button-small{width:auto}}
